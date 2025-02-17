@@ -1,0 +1,58 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 165px;
+  padding: 15px 15px 12px;
+  border-radius: 16px;
+  background-color: #000;
+}
+
+.bgFood {
+  background: var(--lin-gradient), url('../../assets/images/food-2.jpg')no-repeat center / cover;
+}
+
+.bgLunch {
+  background: var(--lin-gradient), url('../../assets/images/lunch-2.jpg')no-repeat center / cover;
+}
+
+.bgExcursion {
+  background: var(--lin-gradient), url('../../assets/images/excursion.jpg')no-repeat center / cover;
+}
+
+.bgTaxi {
+  background: var(--lin-gradient), url('../../assets/images/taxi-2.jpg')no-repeat center / cover;
+}
+
+.cardTitle {
+  font-family: var(--second-family);
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--white-text-color);
+}
+
+.cardTop {
+  width: 60%;
+}
+
+.cardBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardBottomIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: var(--red-color);
+}
+
+.cardBottomBtn {
+  border: none;
+  background-color: transparent;
+}

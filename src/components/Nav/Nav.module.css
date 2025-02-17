@@ -1,0 +1,25 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 8px;
+  border-radius: 16px;
+  background-color: var(--white-bg);
+}
+
+.navBtn {
+  width: 48px;
+  height: 48px;
+  border-radius: 16px;
+  border: none;
+}
+
+.navBtn.active {
+  background-color: var(--dark-blue-color);
+}
+
+.navBtn.active svg, .navBtn.active path {
+  fill: #fff;
+  stroke: #fff;
+}

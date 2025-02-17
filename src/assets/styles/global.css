@@ -1,0 +1,22 @@
+*, ::after, ::before {
+  box-sizing: border-box;
+  font-family: 'SF-Pro-Display-Medium', sans-serif;
+}
+
+h1, h2, h4, h5, h6, p {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}

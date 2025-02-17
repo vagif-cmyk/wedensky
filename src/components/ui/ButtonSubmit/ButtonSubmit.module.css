@@ -1,0 +1,16 @@
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 24px;
+  padding: 16px 24px;
+  border: none;
+  border-radius: 10px;
+  color: var(--white-bg);
+  background-color: var(--red-color);
+}
+
+.spaceBetween {
+  justify-content: space-between;
+}

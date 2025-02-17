@@ -1,0 +1,19 @@
+.wrap {
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  width: 20px;
+  height: 20px;
+  transform: translateY(-50%)
+}
+
+.iconLocationLeft {
+  left: 20px;
+}
+
+.iconLocationRight {
+  right: 20px;
+}

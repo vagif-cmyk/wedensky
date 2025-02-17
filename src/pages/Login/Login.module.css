@@ -1,0 +1,25 @@
+.section, .img {
+  width: 100%;
+}
+
+.logoWrapper, .formWrapper {
+  position: relative;
+
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  overflow: hidden;
+}
+
+.logoWrapper {
+  top: -28px;
+}
+
+.formWrapper {
+  top: -48px;
+}
+
+.line {
+  width: 100%;
+  height: 20px;
+  background-color: var(--yellow-bg);
+}

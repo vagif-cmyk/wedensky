@@ -1,0 +1,28 @@
+:root {
+  --white-color: #f1f2f3;
+  --black-color: #191a1b;
+  --black-light-color: #38383a;
+  --grey-color: #a2a8ad;
+  --yellow-color: #a3833d;
+  --red-color: #90353f;
+  --dark-blue-color: #2d3f50;
+
+  --input-border-color: rgba(56, 56, 58, 0.16);
+  --input-placeholder-color: rgba(56, 56, 58, 0.6);
+
+
+  --main-bg: #F7F5F0;
+  --white-bg: #fff;
+  --yellow-bg: #F3EFE4;
+
+  --hint-text-color: rgba(56, 56, 58, 0.7);
+  --white-text-color: var(--main-bg);
+
+  --lin-gradient: linear-gradient(180deg, rgba(23, 20, 12, 0.7) 0%, rgba(23, 20, 12, 0) 60%);
+
+  --first-family: "SF-UI-Display-Medium", sans-serif;
+  --second-family: "SF-Pro-Display-Medium", sans-serif;
+  --third-family: "Inter-Medium", sans-serif;
+  --forth-family: "SF-Pro-Display-Regular", sans-serif;
+  --fifth-family: "SF-Pro-Display-Semibold", sans-serif;
+}

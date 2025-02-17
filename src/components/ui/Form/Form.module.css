@@ -1,0 +1,52 @@
+.form {
+  padding: 20px 24px;
+  background-color: var(--white-bg);
+}
+
+.title {
+  font-family: var(--first-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 137%;
+  letter-spacing: -0.01em;
+  color: var(--black-light-color);
+  margin-bottom: 19px;
+}
+
+.registerWrap {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.register {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 0 8px;
+  background-color: var(--white-bg);
+}
+
+.register span {
+  font-family: var(--first-family);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1;
+  text-align: center;
+  color: var(--hint-text-color);
+}
+
+ .registerBtn {
+  border: none;
+}
+
+.registerBtn {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1;
+  color: var(--yellow-color);
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+}
